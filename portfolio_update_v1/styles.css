@@ -101,6 +101,16 @@ header .profile-image:hover {
 .card:hover {
   border-color: #ff99ff;
 }
+.hobbies-card{
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 800px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
 
 ul.skills {
   padding: 0;
@@ -201,6 +211,27 @@ a.social:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
+  }
+
+  .extra-image {
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
+  }
+  .golf-image {
+    margin-top: 10px;
+    width: 220px;
+    height: 200px;
+  }
+  .basketball-image {
+    margin-top: 10px;
+    width: 180px;
+    height: 200px;
+  }
+  .swimming-image {
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
   }
 
 }
