@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/wintergarden.png') no-repeat top center ;
+  background: url('images/new_background.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -69,9 +69,9 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 67%;
-  border: 3px solid rgb(156, 156, 156);
-  transition: all .5s;
+  border-radius: 80%;
+  border:5px solid rgb(2, 2, 2);
+  transition: all 1s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
@@ -151,8 +151,8 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
+a.github {
+  background-image: url(images/github.svg);
 }
 a.linkedin {
   background-image: url(images/linkedin.svg);
